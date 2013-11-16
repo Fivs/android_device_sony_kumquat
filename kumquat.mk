@@ -164,14 +164,16 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/system/etc/init.d/10hostapd:system/etc/init.d/10hostapd \
     $(LOCAL_PATH)/prebuilt/system/etc/init.d/50selinuxrelabel:system/etc/init.d/50selinuxrelabel \
     $(LOCAL_PATH)/prebuilt/system/media/LMprec_508.emd:system/media/LMprec_508.emd \
-    $(LOCAL_PATH)/prebuilt/system/media/PFFprec_600.emd:system/media/PFFprec_600.emd
+    $(LOCAL_PATH)/prebuilt/system/media/PFFprec_600.emd:system/media/PFFprec_600.emd \
+    $(LOCAL_PATH)/prebuilt/system/omxloaders:system/omxloaders
 
 # Custom init / uevent
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/root/init.rc:root/init.rc \
     $(LOCAL_PATH)/prebuilt/root/fstab.st-ericsson:root/fstab.st-ericsson \
     $(LOCAL_PATH)/prebuilt/root/init.st-ericsson.rc:root/init.st-ericsson.rc \
-    $(LOCAL_PATH)/prebuilt/root/ueventd.st-ericsson.rc:root/ueventd.st-ericsson.rc
+    $(LOCAL_PATH)/prebuilt/root/ueventd.st-ericsson.rc:root/ueventd.st-ericsson.rc \
+    $(LOCAL_PATH)/prebuilt/root/init.environ.rc:root/init.environ.rc
 
 # Recovery bootstrap script
 PRODUCT_COPY_FILES += \
