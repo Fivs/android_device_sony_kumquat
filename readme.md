@@ -4,7 +4,7 @@ Getting Started :
 
     mkdir cm-11
     cd cm-11
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-11
+    repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0
     repo sync -j16
     cd device
     mkdir sony
