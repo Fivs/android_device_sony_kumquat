@@ -33,7 +33,6 @@ Patch android source code :
     sudo patch -p1 < device/sony/kumquat/patches/system_core.patch
     sudo patch -p1 < device/sony/kumquat/patches/system_netd.patch
          patch -p1 < device/sony/kumquat/patches/bionic.patch
-         patch -p1 < device/sony/kumquat/patches/frameworks_base.patch
          patch -p1 < device/sony/kumquat/patches/bootable_recovery.patch
 
 Our step is optional!!! Use only if you going to sync CM source code daily, than simple revert each patch before you sync CM source code :
@@ -45,7 +44,6 @@ Our step is optional!!! Use only if you going to sync CM source code daily, than
     sudo patch -p1 -R < device/sony/kumquat/patches/system_core.patch
     sudo patch -p1 -R < device/sony/kumquat/patches/system_netd.patch
          patch -p1 -R < device/sony/kumquat/patches/bionic.patch
-         patch -p1 -R < device/sony/kumquat/patches/frameworks_base.patch
          patch -p1 -R < device/sony/kumquat/patches/bootable_recovery.patch
     repo forall -p -c 'git checkout -f'
     repo sync
@@ -56,7 +54,6 @@ Our step is optional!!! Use only if you going to sync CM source code daily, than
     sudo patch -p1 < device/sony/kumquat/patches/system_core.patch
     sudo patch -p1 < device/sony/kumquat/patches/system_netd.patch
          patch -p1 < device/sony/kumquat/patches/bionic.patch
-         patch -p1 < device/sony/kumquat/patches/frameworks_base.patch
          patch -p1 < device/sony/kumquat/patches/bootable_recovery.patch
 
 Download CM prebuilts :
