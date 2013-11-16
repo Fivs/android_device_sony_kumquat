@@ -91,7 +91,7 @@ BOARD_HAS_NO_MISC_PARTITION := true
 
 # Cwm specific 
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/sony/kumquat/recovery/recovery-keys.c
-BOARD_USE_CUSTOM_RECOVERY_FONT := \"lucidaconsole_10x18.h\"
+BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_10x18.h\"
 TARGET_RECOVERY_FSTAB = device/sony/kumquat/prebuilt/root/fstab.st-ericsson
 RECOVERY_FSTAB_VERSION := 2
 
